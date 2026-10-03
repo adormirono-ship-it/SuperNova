@@ -21,8 +21,8 @@ importers:
         specifier: ^1.3.7
         version: 1.5.1
       '@mercuryworkshop/scramjet':
-        specifier: https://github.com/MercuryWorkshop/scramjet/releases/download/latest/mercuryworkshop-scramjet-2.0.0-alpha.tgz
-        version: https://github.com/MercuryWorkshop/scramjet/releases/download/latest/mercuryworkshop-scramjet-2.0.0-alpha.tgz
+        specifier: 2.0.0-alpha
+        version: 2.0.0-alpha
       '@mercuryworkshop/wisp-js':
         specifier: ^0.4.0
         version: 0.4.0
@@ -69,9 +69,9 @@ packages:
   '@mercuryworkshop/libcurl-transport@1.5.1':
     resolution: {integrity: sha512-tNyH1HuQIJRQ2sBVeFmHcIPf15Mv5v6Zq/qrOp3ReE5oBswT13MKLSybzu2VbVRo/QNud18nbKvVz3JeSre79g==}
 
-  '@mercuryworkshop/scramjet@https://github.com/MercuryWorkshop/scramjet/releases/download/latest/mercuryworkshop-scramjet-2.0.0-alpha.tgz':
-    resolution: {tarball: https://github.com/MercuryWorkshop/scramjet/releases/download/latest/mercuryworkshop-scramjet-2.0.0-alpha.tgz}
-    version: 2.0.0-alpha
+  '@mercuryworkshop/scramjet@2.0.0-alpha':
+    resolution: {integrity: sha512-+tAWkKJX4rjsRMWW2vNckzXq3qn/rDcj6ohGJNSEn6O0jqvQvFSgDoCqwPaHjjmBSFXlh8MucL7Dpi0ZX5e/GA==}
+    deprecated: this build is broken, please do not use it
 
   '@mercuryworkshop/wisp-js@0.4.0':
     resolution: {integrity: sha512-rtUSxW8krWS5RGtcFomnoQl/9nrsDnUh7duPcJeQtIqnt5txB7AZJEa6N87CD7UXJzCZVijr1mUHwZy0kHJ+fQ==}
@@ -699,14 +699,13 @@ snapshots:
     dependencies:
       libcurl.js: 0.7.3
 
-  '@mercuryworkshop/scramjet@https://github.com/MercuryWorkshop/scramjet/releases/download/latest/mercuryworkshop-scramjet-2.0.0-alpha.tgz':
+  '@mercuryworkshop/scramjet@2.0.0-alpha':
     dependencies:
-      '@mercuryworkshop/bare-mux': 2.1.7
+      '@mercuryworkshop/epoxy-tls': 2.1.18-1
       dom-serializer: 2.0.0
       domhandler: 5.0.3
       domutils: 3.2.2
       htmlparser2: 10.0.0
-      idb: 8.0.3
       parse-domain: 8.2.2
       set-cookie-parser: 2.7.2
 
